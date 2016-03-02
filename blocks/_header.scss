@@ -1,0 +1,24 @@
+/* Header styles */
+
+header {
+	background-color: white;
+	border-bottom: 1px solid #f4f4f4;
+	padding: .5em;
+	.logo {
+		width: 5%;
+	}
+	.nav {
+		&__list {
+			display: inline-flex;
+			// flex-direction: row;
+			justify-content: flex-end;
+			&--item {
+				padding: 1em;
+				a {
+					color: $base;	
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
