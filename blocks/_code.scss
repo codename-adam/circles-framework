@@ -1,0 +1,42 @@
+// _code.scss
+.code {
+  margin: 0 auto;
+  background-color: $base;
+  padding: 5em 0;
+}
+.home-browser-window {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-width: 550px; 
+  margin: 0 auto;
+  box-shadow: 0 4px 2px -2px rgba(0,0,0,0.4);
+}
+
+.home-browser-dots-container {
+  border-bottom: 1px solid #ccc;
+  padding: 10px; 
+  background-color: white;
+}
+
+.home-browser-dots {
+  margin: 0;
+  padding: 0; }
+
+.home-browser-dots .red {
+  color: #e34c24; }
+
+.home-browser-dots .yellow {
+  color: #e4d735; }
+
+.home-browser-dots .green {
+  color: #2ad665; }
+  .list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+  }
+  .list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+  }

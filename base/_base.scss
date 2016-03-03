@@ -1,8 +1,27 @@
 /* Base Styles */
 
+$base:    #9e96f2;
+$lato:		'Lato', sans-serif;
+
+* {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 	padding: 0;
+	font-family: $lato;
+	.wrap {
+		width: 1000px;
+		margin: 0 auto;
+	}
 }
 
-$base:    #9e96f2;
+h1 {}
+h2 {}
+h3 {}
+h4 {
+	font-size: 24px;
+}
+h5 {}
+h6 {}

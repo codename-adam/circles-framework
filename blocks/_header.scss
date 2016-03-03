@@ -3,18 +3,19 @@
 header {
 	background-color: white;
 	border-bottom: 1px solid #f4f4f4;
-	padding: .5em;
 	.logo {
 		width: 5%;
 	}
 	.nav {
+		padding: 1em;
 		&__list {
-			display: inline-flex;
-			// flex-direction: row;
-			justify-content: flex-end;
+			display: inline-block;
+			float: right;
 			&--item {
-				padding: 1em;
+				display: inline-block;
+				padding-top: 25px;
 				a {
+					padding: 47px 20px;
 					color: $base;	
 					text-decoration: none;
 				}
