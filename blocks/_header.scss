@@ -4,7 +4,7 @@ header {
 	background-color: white;
 	border-bottom: 1px solid #f4f4f4;
 	.logo {
-		width: 5%;
+		width: 7%;
 	}
 	.nav {
 		padding: 1em;
@@ -13,9 +13,8 @@ header {
 			float: right;
 			&--item {
 				display: inline-block;
-				padding-top: 25px;
+				padding: 25px 5px;
 				a {
-					padding: 47px 20px;
 					color: $base;	
 					text-decoration: none;
 				}

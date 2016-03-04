@@ -1,8 +1,16 @@
 // _code.scss
-.code {
-  margin: 0 auto;
+.code-block {
   background-color: $base;
   padding: 5em 0;
+  display: inline-block;
+  width: 100%;
+}
+.code-content {
+  color: white;
+}
+.code {
+  margin: 0 auto;
+
 }
 .home-browser-window {
   border: 1px solid #ccc;
