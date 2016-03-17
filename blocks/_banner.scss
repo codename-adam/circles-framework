@@ -1,0 +1,19 @@
+// _banner.scss
+.c {
+	&__banner {
+		height: 400px;
+		max-height: 400px;
+		background-color: $base;
+		overflow: hidden;
+
+		&--content {
+			position: relative;
+			figcaption {
+				position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+			}
+		}
+	}
+}
